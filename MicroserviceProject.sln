@@ -27,27 +27,31 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{F59DA5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{1467D88A-4BF0-4E9B-B822-52C26EFA5559}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceProject.Catalog", "Services\Catalog\MicroserviceProject.Catalog\MicroserviceProject.Catalog.csproj", "{6CE828E1-F1FD-4A57-97A6-92FE02700D2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceProject.Catalog", "Services\Catalog\MicroserviceProject.Catalog\MicroserviceProject.Catalog.csproj", "{6CE828E1-F1FD-4A57-97A6-92FE02700D2C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceProject.Basket", "Services\Basket\MicroserviceProject.Basket\MicroserviceProject.Basket.csproj", "{60236C98-E80B-4565-9FFD-33A884C568E6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceProject.Basket", "Services\Basket\MicroserviceProject.Basket\MicroserviceProject.Basket.csproj", "{60236C98-E80B-4565-9FFD-33A884C568E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceProject.Discount", "Services\Discount\MicroserviceProject.Discount\MicroserviceProject.Discount.csproj", "{8A8EEC3E-D35D-484A-939D-58A32C9A1C8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceProject.Discount", "Services\Discount\MicroserviceProject.Discount\MicroserviceProject.Discount.csproj", "{8A8EEC3E-D35D-484A-939D-58A32C9A1C8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceProject.Order", "Services\Order\MicroserviceProject.Order\MicroserviceProject.Order.csproj", "{32DFC6B0-5E49-4F1F-ACB9-FA49234A886F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceProject.Order", "Services\Order\MicroserviceProject.Order\MicroserviceProject.Order.csproj", "{32DFC6B0-5E49-4F1F-ACB9-FA49234A886F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceProject.Order.Application", "Services\Order\MicroserviceProject.Order.Application\MicroserviceProject.Order.Application.csproj", "{D16A7BD3-F1D3-473A-81E1-32D50F5DBBFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceProject.Order.Application", "Services\Order\MicroserviceProject.Order.Application\MicroserviceProject.Order.Application.csproj", "{D16A7BD3-F1D3-473A-81E1-32D50F5DBBFD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceProject.Order.Domain", "Services\Order\MicroserviceProject.Order.Domain\MicroserviceProject.Order.Domain.csproj", "{42386BE9-3A95-45C3-8397-9B940E505D8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceProject.Order.Domain", "Services\Order\MicroserviceProject.Order.Domain\MicroserviceProject.Order.Domain.csproj", "{42386BE9-3A95-45C3-8397-9B940E505D8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceProject.Order.Domain.Core", "Services\Order\MicroserviceProject.Order.Domain.Core\MicroserviceProject.Order.Domain.Core.csproj", "{F3A8AB04-774D-4ED3-951C-CD8C5952E02B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceProject.Order.Domain.Core", "Services\Order\MicroserviceProject.Order.Domain.Core\MicroserviceProject.Order.Domain.Core.csproj", "{F3A8AB04-774D-4ED3-951C-CD8C5952E02B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceProject.Order.Domain.Infrastructure", "Services\Order\MicroserviceProject.Order.Domain.Infrastructure\MicroserviceProject.Order.Domain.Infrastructure.csproj", "{B07A1BB9-C657-4236-BE02-B8E20EC15FEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceProject.Order.Domain.Infrastructure", "Services\Order\MicroserviceProject.Order.Domain.Infrastructure\MicroserviceProject.Order.Domain.Infrastructure.csproj", "{B07A1BB9-C657-4236-BE02-B8E20EC15FEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceProject.PhotoStock", "Services\PhotoStock\MicroserviceProject.PhotoStock\MicroserviceProject.PhotoStock.csproj", "{BEEEFAF7-71B6-4AA7-A22C-2EAA0AC76EBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceProject.PhotoStock", "Services\PhotoStock\MicroserviceProject.PhotoStock\MicroserviceProject.PhotoStock.csproj", "{BEEEFAF7-71B6-4AA7-A22C-2EAA0AC76EBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceProject.FakePayment", "Services\FakePayment\MicroserviceProject.FakePayment\MicroserviceProject.FakePayment.csproj", "{A9B3FAC5-7869-44B3-BAC6-609708EA1871}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceProject.FakePayment", "Services\FakePayment\MicroserviceProject.FakePayment\MicroserviceProject.FakePayment.csproj", "{A9B3FAC5-7869-44B3-BAC6-609708EA1871}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceProject.Frontend", "Frontends\MicroserviceProject.Frontend\MicroserviceProject.Frontend.csproj", "{3F2DCFE0-5B94-4728-8F77-31D780F67185}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceProject.Frontend", "Frontends\MicroserviceProject.Frontend\MicroserviceProject.Frontend.csproj", "{3F2DCFE0-5B94-4728-8F77-31D780F67185}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceProject.Shared", "Shared\MicroserviceProject.Shared\MicroserviceProject.Shared.csproj", "{97B6A98A-8BE1-40B4-8CE8-B9D70660FC26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceProject.IdentityServer", "IdentityServer\MicroserviceProject.IdentityServer\MicroserviceProject.IdentityServer.csproj", "{3786EA19-03A0-47F1-857F-D81483FF1E1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +103,14 @@ Global
 		{3F2DCFE0-5B94-4728-8F77-31D780F67185}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F2DCFE0-5B94-4728-8F77-31D780F67185}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F2DCFE0-5B94-4728-8F77-31D780F67185}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97B6A98A-8BE1-40B4-8CE8-B9D70660FC26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97B6A98A-8BE1-40B4-8CE8-B9D70660FC26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97B6A98A-8BE1-40B4-8CE8-B9D70660FC26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97B6A98A-8BE1-40B4-8CE8-B9D70660FC26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3786EA19-03A0-47F1-857F-D81483FF1E1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3786EA19-03A0-47F1-857F-D81483FF1E1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3786EA19-03A0-47F1-857F-D81483FF1E1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3786EA19-03A0-47F1-857F-D81483FF1E1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -121,6 +133,8 @@ Global
 		{BEEEFAF7-71B6-4AA7-A22C-2EAA0AC76EBF} = {3366C9E4-72AD-4D2D-8D26-E23021A9A012}
 		{A9B3FAC5-7869-44B3-BAC6-609708EA1871} = {9BC6AA47-FE01-4E24-816B-2F8A7C25A251}
 		{3F2DCFE0-5B94-4728-8F77-31D780F67185} = {DE8086CE-4F19-4F3B-8260-B746F192E1B3}
+		{97B6A98A-8BE1-40B4-8CE8-B9D70660FC26} = {F59DA5AE-87F5-43DD-BB6E-1D7F4178B458}
+		{3786EA19-03A0-47F1-857F-D81483FF1E1A} = {B8D772BE-EB17-442C-8BB3-DC57DE47178B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {78AEF45E-F635-4508-AA0F-8007D74F154C}
