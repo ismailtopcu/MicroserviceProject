@@ -2,7 +2,11 @@
 // Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
 
 
+using MicroserviceProject.IdentityServer.Data;
+using MicroserviceProject.IdentityServer.Models;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -44,6 +48,25 @@ namespace MicroserviceProject.IdentityServer
                 }
 
                 var host = CreateHostBuilder(args).Build();
+                using (var scope = host.Services.CreateScope())
+                {
+                    var serviceProvider = scope.ServiceProvider;
+                    var applicationDbContext = serviceProvider.GetRequiredService<ApplicationDbContext>();
+                    applicationDbContext.Database.Migrate();
+                    var userManager = serviceProvider.GetRequiredService<UserManager<ApplicationUser>>();
+                    if (!userManager.Users.Any())
+                    {
+                        userManager.CreateAsync(new ApplicationUser
+                        {
+                            UserName="iismailt",
+                            Email="ismailtopcu92@gmail.com",
+                            District="Bağcılar",
+                            UserImage="test",
+                            City="İstanbul",
+                            Country="Türkiye"
+                        }).Wait();
+                    }
+                }
 
                 if (seed)
                 {
