@@ -51,8 +51,24 @@ namespace MicroserviceProject.IdentityServer
                     ClientId = "AkademiPlusClient",
                     ClientSecrets = {new Secret("secret".Sha256())},
                     AllowedGrantTypes = GrantTypes.ClientCredentials, 
-                    AllowedScopes = {"catalog_fullpermission", "photostock_fullpermission",IdentityServerConstants.LocalApi.ScopeName}
+                    AllowedScopes = { "gateway_fullpermission", "catalog_fullpermission", "photostock_fullpermission",IdentityServerConstants.LocalApi.ScopeName}
+                },
+                new Client
+                {
+                    ClientName="AkademiPlus",
+                    ClientId="AkademiPlusClientForUser",
+                    AllowOfflineAccess=true,
+                    ClientSecrets = {new Secret("secret".Sha256())},
+                    AllowedGrantTypes = GrantTypes.ResourceOwnerPassword,
+                    AllowedScopes = {"gateway_fullpermission", "catalog_fullpermission", "photostock_fullpermission","basket_fullpermission","discount_fullpermission",
+                        IdentityServerConstants.StandardScopes.Email,
+                        IdentityServerConstants.StandardScopes.OpenId, 
+                        IdentityServerConstants.StandardScopes.Profile, 
+                        IdentityServerConstants.StandardScopes.OfflineAccess, 
+                        IdentityServerConstants.LocalApi.ScopeName },
+                    AccessTokenLifetime=300
                 }
             };
+        
     }
 }

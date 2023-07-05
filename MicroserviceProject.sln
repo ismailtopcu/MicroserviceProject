@@ -53,6 +53,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceProject.Shared"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceProject.IdentityServer", "IdentityServer\MicroserviceProject.IdentityServer\MicroserviceProject.IdentityServer.csproj", "{3786EA19-03A0-47F1-857F-D81483FF1E1A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroserviceProject.Gateway", "Gateways\MicroserviceProject.Gateway\MicroserviceProject.Gateway.csproj", "{50D3F183-2BA3-4631-8D3B-6D5CF0073C44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{3786EA19-03A0-47F1-857F-D81483FF1E1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3786EA19-03A0-47F1-857F-D81483FF1E1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3786EA19-03A0-47F1-857F-D81483FF1E1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50D3F183-2BA3-4631-8D3B-6D5CF0073C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50D3F183-2BA3-4631-8D3B-6D5CF0073C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50D3F183-2BA3-4631-8D3B-6D5CF0073C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50D3F183-2BA3-4631-8D3B-6D5CF0073C44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -135,6 +141,7 @@ Global
 		{3F2DCFE0-5B94-4728-8F77-31D780F67185} = {DE8086CE-4F19-4F3B-8260-B746F192E1B3}
 		{97B6A98A-8BE1-40B4-8CE8-B9D70660FC26} = {F59DA5AE-87F5-43DD-BB6E-1D7F4178B458}
 		{3786EA19-03A0-47F1-857F-D81483FF1E1A} = {B8D772BE-EB17-442C-8BB3-DC57DE47178B}
+		{50D3F183-2BA3-4631-8D3B-6D5CF0073C44} = {15BB294D-F364-4F82-B938-BCD1D8339E10}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {78AEF45E-F635-4508-AA0F-8007D74F154C}

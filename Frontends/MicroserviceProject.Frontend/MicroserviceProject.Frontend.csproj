@@ -4,4 +4,12 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Services\Concrete\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Shared\MicroserviceProject.Shared\MicroserviceProject.Shared.csproj" />
+  </ItemGroup>
+
 </Project>
